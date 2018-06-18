@@ -24,7 +24,7 @@ $ composer require tabscanner/phpsdk --prefer-stable
 
 ### Basic Usage
 
-Visit [Tab Scanner Alpha](https://alpha.tabscanner.com) for your API key 
+Visit [Tab Scanner Admin](https://admin.tabscanner.com) for your API key 
 
 Note: The upload API can accept one of the following parameter:
 - array - single HTTP File Upload variable ($_FILES) (for array of files see upload_multiple method)
@@ -65,8 +65,4 @@ $receipt_token = $upload_response['token'];
 $result_response = $api->result($receipt_token);
 ```
 
-### Upcoming Methods
-```php
-upload_multiple() //accepts multi-dimensional $_FILES
-```
 
